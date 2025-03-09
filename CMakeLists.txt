@@ -24,7 +24,7 @@ if (${BUILD_SHARED_LIBS})
         # 设置库的版本号
         set_target_properties(sqlite3 PROPERTIES
                 VERSION ${PROJECT_VERSION}
-                SOVERSION 1
+                SOVERSION 3
         )
 
         # 安装库和头文件
